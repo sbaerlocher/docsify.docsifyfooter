@@ -1,6 +1,6 @@
 {
   "name": "docsifyfooter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generates a footer for docsify.",
   "main": "dist/docsifyfooter.js",
   "unpkg": "dist/docsifyfooter.min.js",
