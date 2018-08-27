@@ -14,7 +14,7 @@ Add the following script tag to your `index.html`:
 
 ```html
 <!-- Latest v1.x.x -->
-<script src="https://unpkg.com/docsify.docsifyfooter@1"></script>
+<script src="https://unpkg.com/docsifyfooter@1"></script>
 ```
 
 This will load the latest v1.x of the plugin. Specifying the version ensures that the release of a major update (v2.x) will not break your production site.
@@ -25,7 +25,7 @@ If you prefer to load the latest version of the library, you may do so my omitti
 
 ```html
 <!-- Latest (not recommended for production) -->
-<script src="https://unpkg.com/docsify.docsifyfooter"></script>
+<script src="https://unpkg.com/docsifyfooter"></script>
 ```
 
 ## Changelog
