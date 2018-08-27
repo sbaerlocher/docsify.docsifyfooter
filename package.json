@@ -1,0 +1,34 @@
+{
+  "name": "docsifyfooter",
+  "version": "1.0.0",
+  "description": "Generates a footer for docsify.",
+  "main": "dist/docsifyfooter.js",
+  "unpkg": "dist/docsifyfooter.min.js",
+  "scripts": {
+    "build:minify": "uglifyjs --compress --mangle --comments all --output ./dist/docsifyfooter.min.js -- ./dist/docsifyfooter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbaerlocher/docsify.docsifyfooter.git"
+  },
+  "keywords": [
+    "footer",
+    "docsify",
+    "plugin"
+  ],
+  "author": "Simon Baerlocher",
+  "license": "MIT",
+  "licenses": [
+    {
+      "name": "MIT",
+      "url": "https://sbaerlo.ch/license"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/sbaerlocher/docsify.docsifyfooter/issues"
+  },
+  "homepage": "https://github.com/sbaerlocher/docsify.docsifyfooter#readme",
+  "devDependencies": {
+    "uglifyjs": "^2.4.11"
+  }
+}
