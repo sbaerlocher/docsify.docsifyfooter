@@ -6,8 +6,6 @@
  * MIT license
  */
 
-"use strict";
-
 function docsifyfooter(hook) {
     var footer = [
         '<hr/>',
